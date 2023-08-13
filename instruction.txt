@@ -1,0 +1,6 @@
+npm init
+npm i gulp --save-dev
+npm run dev
+npm run build
+npm run zip
+tsc -w

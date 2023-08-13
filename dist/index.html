@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Cars</title>
+</head>
+
+<body>
+    <header class="header">
+    <div class="header__container">
+        <div class="header__lower">
+            <a href=""><img src="img/logo.jpeg" alt="logo" class="header__logo" width="250" height="50"></a>
+            <nav class="nav">
+                <a href="#" class="nav__item"><p>home</p></a>
+                <a href="#" class="nav__item-special">
+                    <p data-main="1">vehicles</p>
+                    <div class="nav__vehicles" data-menu="1">
+                        <ul class="nav__vehicles-types">
+                            <a href="#" class="nav__vehicles-type nav__vehicles-type_all-mobile">view all</a>
+                            <a href="#" class="nav__vehicles-type" data-submenu="1">suv</a>
+                            <a href="#" class="nav__vehicles-type" data-submenu="2">sedan</a>
+                            <a href="#" class="nav__vehicles-type" data-submenu="3">universal</a>
+                            <a href="#" class="nav__vehicles-type" data-submenu="4">limousine</a>
+                            <a href="#" class="nav__vehicles-type nav__vehicles-type_all">view all</a>
+                        </ul>
+                        <ul class="nav__vehicles-cars _submenu" data-content="1">
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                        </ul>
+                        <ul class="nav__vehicles-cars" data-content="2">
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                            <a href="" class="nav__vehicles-car">bmw x7</a>
+                            <a href="" class="nav__vehicles-car">toyota land cruiser 200</a>
+                        </ul>
+                        <ul class="nav__vehicles-cars" data-content="3">
+                            <a href="" class="nav__vehicles-car">nissan gtr</a>
+                            <a href="" class="nav__vehicles-car">mitsubishi outlander</a>
+                            <a href="" class="nav__vehicles-car">mini couper</a>
+                            <a href="" class="nav__vehicles-car">nissan gtr</a>
+                            <a href="" class="nav__vehicles-car">mitsubishi outlander</a>
+                            <a href="" class="nav__vehicles-car">mini couper</a>
+                            <a href="" class="nav__vehicles-car">nissan gtr</a>
+                            <a href="" class="nav__vehicles-car">mitsubishi outlander</a>
+                            <a href="" class="nav__vehicles-car">mini couper</a>
+                        </ul>
+                        <ul class="nav__vehicles-cars" data-content="4">
+                            <a href="" class="nav__vehicles-car">nissan gtr</a>
+                            <a href="" class="nav__vehicles-car">mitsubishi outlander</a>
+                            <a href="" class="nav__vehicles-car">mini couper</a>
+                            <a href="" class="nav__vehicles-car">nissan gtr</a>
+                            <a href="" class="nav__vehicles-car">mitsubishi outlander</a>
+                            <a href="" class="nav__vehicles-car">mini couper</a>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#" class="nav__item-special">
+                    <p data-main="2">production</p>
+                    <div class="nav__production" data-menu="2">
+                        <ul class="nav__production-types">
+                            <a href="" class="nav__production-type">process</a>
+                            <a href="" class="nav__production-type">currently in stock</a>
+                            <a href="" class="nav__production-type">innovations</a>
+                            <a href="" class="nav__production-type">unique components</a>
+                            <a href="" class="nav__production-type">process</a>
+                            <a href="" class="nav__production-type">currently in stock</a>
+                            <a href="" class="nav__production-type">innovations</a>
+                            <a href="" class="nav__production-type">unique components</a>
+                            <a href="" class="nav__production-type">process</a>
+                            <a href="" class="nav__production-type">currently in stock</a>
+                            <a href="" class="nav__production-type">innovations</a>
+                            <a href="" class="nav__production-type">unique components</a>
+                        </ul>
+                    </div>
+                </a>
+                <!-- <a href="#" class="nav__item"><p>about us</p></a> -->
+                <a href="#" class="nav__item"><p>contact</p></a>
+            </nav>
+            <div class="header__search">
+                <input class="header__search-input" type="text" placeholder="SEARCH">
+                <button class="header__search-icon">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </div>    
+            <div class="burger"><span></span></div>
+        </div>
+    </div>
+</header>
+    <main class="main">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/banner.webp" alt="" loading="lazy" width="100%">
+                    <div class="swiper-slide-text">
+                        <div class="swiper-slide-title">leading car rent</div>
+                        <div class="swiper-slide-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, vitae?</div>
+                        <a href="#" class="swiper-slide-link">learn more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/banner2.jpeg" alt="" loading="lazy" width="100%">
+                    <div class="swiper-slide-text">
+                        <div class="swiper-slide-title">exclusive limousine</div>
+                        <div class="swiper-slide-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, vitae?</div>
+                        <a href="#" class="swiper-slide-link">learn more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/banner3.jpeg" alt="" loading="lazy" width="100%">
+                    <div class="swiper-slide-text">
+                        <div class="swiper-slide-title">certified production</div>
+                        <div class="swiper-slide-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, vitae?</div>
+                        <a href="#" class="swiper-slide-link">learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="about">
+            <div class="about__container">
+                <div class="about__less">
+                    <img src="img/first.jpeg" alt="armoured car">
+                    <div class="about__text">
+                        <div class="about__title">ARMORED CARS & BULLETPROOF VEHICLES</div>
+                        <div class="about__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste expedita dolores quisquam quasi unde quia, adipisci alias sed illo culpa placeat, saepe provident doloribus! Sint est obcaecati inventore aliquam quos amet perspiciatis non unde eligendi iste dolores hic tenetur molestias, a, dignissimos voluptatem ad voluptatibus quis officia numquam quia labore. Tempora illum molestias, delectus repellat qui quas commodi. Maiores, maxime magnam. Animi consequuntur, blanditiis repellat eaque fugit temporibus praesentium dignissimos.</div>
+                        <div class="about__btn">learn more about us</div>
+                    </div>
+                </div>
+                <div class="about__more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos impedit iusto hic perspiciatis maxime dolores laudantium maiores similique mollitia sapiente commodi quas nesciunt, nihil debitis exercitationem sint expedita fuga explicabo obcaecati minima voluptatum in, cumque earum dicta. At doloremque dicta, eum nam ex aspernatur! Saepe nam fugiat dolore quaerat blanditiis inventore ea eius amet pariatur magni atque incidunt ex rerum rem minus, similique omnis accusantium dolor quos maiores voluptates vitae aperiam eaque? Animi labore voluptatum distinctio ab explicabo. Sed qui ratione ut cumque officia amet minima illum, dolorem aperiam, numquam accusantium? Rerum vero ducimus molestias cumque natus aperiam laborum iusto quod voluptatibus modi, corrupti praesentium vitae a illo voluptatum, accusamus consectetur eveniet aliquam nostrum nemo at! Ad repellendus voluptatum quia iusto, eius a nesciunt aliquam soluta, minima, voluptatem commodi ea saepe minus qui? Veritatis, iusto officia molestias, cupiditate tenetur nihil ducimus quas excepturi alias neque non perferendis quis quo placeat ratione cum odio sed nam deserunt iste facere, incidunt praesentium. Debitis laborum ex sapiente adipisci laboriosam consequatur fugiat dolor earum? Totam deserunt quasi officiis sunt nulla, perferendis quae ut molestiae obcaecati enim odio deleniti, commodi, quisquam temporibus sequi eligendi quaerat? Quibusdam, perspiciatis sapiente blanditiis optio quia non tenetur sunt dolorum.</div>
+            </div>
+        </div>
+        <div class="why">
+            <div class="why__container">
+                <div class="choose">
+                    <div class="why__title">why chose us</div>
+                    <div class="choose__content">
+                        <div class="choose__item">
+                            <button class="choose__title _chosen" data-choose="1">high quality of armoring</button>
+                            <div class="choose__text _chosen" data-chosen="1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt beatae obcaecati fuga neque! Repellat ipsam consequuntur explicabo odio incidunt velit! Molestias maxime velit suscipit mollitia distinctio ullam quae illum ipsum aut, doloribus, dolorum debitis dolore praesentium est beatae sapiente nulla.</div>
+                        </div>
+                        <div class="choose__item">
+                            <button class="choose__title" data-choose="2">innovative technologies</button>
+                            <div class="choose__text" data-chosen="2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt beatae obcaecati fuga neque! Repellat ipsam consequuntur explicabo odio incidunt velit! Molestias maxime velit suscipit mollitia distinctio ullam quae illum ipsum aut, doloribus, dolorum debitis dolore praesentium est beatae sapiente nulla.</div>
+                        </div>
+                        <div class="choose__item">
+                            <button class="choose__title" data-choose="3">cetrified materials</button>
+                            <div class="choose__text" data-chosen="3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt beatae obcaecati fuga neque! Repellat ipsam consequuntur explicabo odio incidunt velit! Molestias maxime velit suscipit mollitia distinctio ullam quae illum ipsum aut, doloribus, dolorum debitis dolore praesentium est beatae sapiente nulla.</div>
+                        </div>
+                        <div class="choose__item">
+                            <button class="choose__title" data-choose="4">high-experienced team</button>
+                            <div class="choose__text" data-chosen="4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt beatae obcaecati fuga neque! Repellat ipsam consequuntur explicabo odio incidunt velit! Molestias maxime velit suscipit mollitia distinctio ullam quae illum ipsum aut, doloribus, dolorum debitis dolore praesentium est beatae sapiente nulla.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured">
+                    <div class="why__title featured__title">
+                        <p>featured</p>
+                        <div class="featured__buttons">
+                            <div class="featured__button featured__button-prev" onclick="plusSlides(-1)"></div>
+                            <div class="featured__button featured__button-next" onclick="plusSlides(1)"></div>
+                        </div>
+                    </div>
+                    <div class="featured__slider">
+                        <div class="featured__slide fade">
+                            <img src="img/banner.webp" alt="">
+                            <div class="featured__slide-name">BMW F90</div>
+                        </div>
+                        <div class="featured__slide fade">
+                            <img src="img/banner2.jpeg" alt="">
+                            <div class="featured__slide-name">toyota land croiser 200</div>
+                        </div>
+                        <div class="featured__slide fade">
+                            <img src="img/banner3.jpeg" alt="">
+                            <div class="featured__slide-name">audi rs7</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+    <div class="footer__container">
+        <form action="" class="footer__form">
+            <p class="footer__title">get in touch</p>
+            <div class="footer__form-content">
+                <div class="footer__form-left">
+                    <input type="text" class="footer__form-input" placeholder="Name (Required)" required>
+                    <input type="tel" class="footer__form-input" placeholder="123-456-78910" required>
+                    <input type="tel" class="footer__form-input" placeholder="Email (Required)" required>
+                </div>
+                <div class="footer__form-right">
+                    <textarea class="footer__form-textarea" placeholder="Message (Optional)"></textarea>
+                    <button class="footer__form-button" type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+        <div class="footer__contact">
+            <div class="footer__title">contacts</div>
+            <div class="footer__contact-texts">
+                <div class="footer__contact-text">
+                    <span class="material-symbols-outlined">call</span>
+                    <p>
+                        Tel: +1 234 567 8910 <br>
+                        Fax: +1 234 567 8910
+                    </p>
+                </div>
+                <div class="footer__contact-text"><span class="material-symbols-outlined">location_on</span>1111 South Mh., New York</div>
+                <div class="footer__contact-text"><span class="material-symbols-outlined">mail</span>ouremail@our.email</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer__bottom">
+    <div class="footer__bottom-container">
+        © Our name. All rights reserved.
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("featured__slide");
+        if (n > slides.length) {
+            slideIndex = 1
+        } 
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+        }
+        slides[slideIndex-1].style.display = "block"; 
+        }
+    </script>
+</body>
+</html>
